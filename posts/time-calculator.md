@@ -1,13 +1,3 @@
----
-title: Time Interval Calculator
-description: A React app that calculates the time between two moments in a variety
-  of units.
-date_published:
-  year: '2018'
-  month: '10'
-  day: '6'
----
- 
  This was enormously fun to code. It is the first [React](https://reactjs.org) app I built after completing the [official tutorial](https://reactjs.org/tutorial/tutorial.html). I got to apply new skills to a completely new style of UI programming, and let me just say I'm thoroughly hooked. Ever since I started learning to code I've understood state-based design as the clear best-practice for UI. Although they take a good deal of preparational overhead, React apps are compact, easy to maintain and very powerful. React's designers also recommend tons of good practices for modularizing and simplifying React code, as well as the amazing [create-react-app](https://www.npmjs.com/package/create-react-app) command-line utility, which sets up a deveopment environment and deployment tools so you can focus completely on the app. The last word is this- [facebook](https://facebook.com) made it, and it is used extensively throughout their browser app, mobile app and messenger. It works.
 
  The app uses two controlled datetime-local `<input>`s, rendered by an `Input` component. Changes are passed to the controller component, which tracks the state of the datetime selector. It passes the raw datetime string as props to an `Output` component. `Output` parses them into moment.js moments, then finds the difference between these two moments and outputs it in the various formats. In the future I want to rewrite the `Input` component in a way that relies less on the datetime-local `<input>`. It's messy and cumbersome and hard to use on a smartphone. Something that I've rarely seen that I would love to implement is a date/time entry system that allows the user either to choose from a calender or type numbers in manually. I would also like to make sure the typed number input brings up a number pad on smartphones.
