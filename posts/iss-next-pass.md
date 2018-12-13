@@ -1,4 +1,14 @@
- This project grew out of want to practice implementing APIs in [React](https://reactjs.org). React is great for handling asynchronous processes because state is built into its components. Almost without telling it, the app understands how to wait until the data is available before rendering it. And if you need to call the API again, its easy just to revert back to the waiting state.
+---
+title: Find next ISS overhead pass
+description: 'A React app that shows the next time the ISS will rise and set overhead
+  of your location. '
+date_published:
+  year: '2018'
+  month: '10'
+  day: '6'
+---
+
+ This project grew out of want to practice implementing APIs in [React](https://reactjs.org). React is great for handling asynchronous processes because state is built into its components. Almost without telling it, the app understands how to wait until the data is available before rendering it. And if you need to call the API again, its easy just to revert back to the waiting state.
 
  The project was also a great oportunity to practice React's method of abstracting the layout from the application itself. If you aren't familiar, React works like this: you write "components" which are functions or classes; these components do some processing on data they recieve, and then return a block of HTML-like markup called JSX (JavaScript extended) which constitutes the component's visual output. Components recieve data as their `props` (properties) and can pass data to other components only by rendering them as elements in their JSX returns and passing the data as attributes. For example in this app the `Controller` component renders a `Presentational` component like so,
 
