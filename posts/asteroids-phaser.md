@@ -1,4 +1,13 @@
- After finishing the [Phaser intro tutorial](/catalog/descriptions/phaser_first_game), I was looking for a more challenging project. I had tried to write an Asteroids game in [p5.js](https://p5js.org) with little success, due to the cumbersome physics implementation and limited features of the framework. I had seen a tutorial for Asteroids on the [Phaser](https://phaser.io) website and decided to give it a shot as my first Phaser project without a tutorial. I chose not to follow a tutorial because I wanted to get a feel for the documentation and for the developer communities. I found the communities to be extremely robust expecially given that Phaser V3 had only been released 3 months prior. With a combination of extremely helpful developers and a good deal of bushwacking through the documentation, I was able to produce a working game. After two weeks of hardcore work on this project it began to wear me down quite a lot, so I decided to publish what I had and put it in the "continuing development" pile.
+---
+title: Asteroids game in Phaser.js 3
+description: Asteroids game built in Phaser 3.12.0; work in progress
+date_published:
+  year: '2018'
+  month: '10'
+  day: '6'
+---
+
+ After finishing the [Phaser intro tutorial](/catalog/descriptions/phaser_first_game), I was looking for a more challenging project. I had tried to write an Asteroids game in [p5.js](https://p5js.org) with little success, due to the cumbersome physics implementation and limited features of the framework. I had seen a tutorial for Asteroids on the [Phaser](https://phaser.io) website and decided to give it a shot as my first Phaser project without a tutorial. I chose not to follow a tutorial because I wanted to get a feel for the documentation and for the developer communities. I found the communities to be extremely robust expecially given that Phaser V3 had only been released 3 months prior. With a combination of extremely helpful developers and a good deal of bushwacking through the documentation, I was able to produce a working game. After two weeks of hardcore work on this project it began to wear me down quite a lot, so I decided to publish what I had and put it in the "continuing development" pile.
 
  I'm learning a lot about both Phaser and Javascript from this project. I had a lot of fun implementing the rotational physics in the game. The numerous `set` methods made things a breeze. I also made good use of the `Phaser.Math` utilities, which are a perfect fit for game design. I also like the keyboard interface implementation a lot-- one-liners like
 
