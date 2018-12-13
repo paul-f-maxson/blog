@@ -1,0 +1,39 @@
+---
+tc-update-beautify.md:
+  title: Refacing the Time Calculator React app
+  description: Implementing the react-datetime package
+  date_published:
+    year: '2018'
+    month: '10'
+    day: '9'
+asteroids-phaser.md:
+  title: Asteroids game in Phaser.js 3
+  description: Asteroids game built in Phaser 3.12.0; work in progress
+  date_published:
+    year: '2018'
+    month: '10'
+    day: '6'
+iss-nex-pass.md:
+  title: Find next ISS overhead pass
+  description: 'A React app that shows the next time the ISS will rise and set overhead
+    of your location. '
+  date_published:
+    year: '2018'
+    month: '10'
+    day: '6'
+time-calculator.md:
+  title: Time Interval Calculator
+  description: A React app that calculates the time between two moments in a variety
+    of units.
+  date_published:
+    year: '2018'
+    month: '10'
+    day: '6'
+phaser-first-game.md:
+  title: First Phaser Game
+  description: End product of the Phaser.js introductory tutorial, with some slight
+    modifications to fit my personal taste
+  date_published:
+    year: '2018'
+    month: '10'
+    day: '6'
