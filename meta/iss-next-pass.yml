@@ -3,7 +3,7 @@ title: Find next ISS overhead pass
 description:
   'A React app that shows the next time the ISS will rise and set overhead
   of your location. '
-date_published:
+datePublished:
   year: '2018'
   month: '10'
   day: '6'

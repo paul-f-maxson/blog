@@ -3,7 +3,7 @@ title: Time Interval Calculator
 description:
   A React app that calculates the time between two moments in a variety
   of units.
-date_published:
+datePublished:
   year: '2018'
   month: '10'
   day: '6'
